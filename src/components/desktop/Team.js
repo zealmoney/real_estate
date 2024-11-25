@@ -30,7 +30,7 @@ export const Team = () => {
                                 content="Engr. Solarin Babajide Feyisola"
                                 color="green"
                                 style={{
-                                    fontSize: 20, 
+                                    fontSize: 16, 
                                     fontFamily: 'Bebas Neue',
                                     fontWeight: 'bold',
                                     margin: 10,
@@ -40,7 +40,7 @@ export const Team = () => {
                             <p>
                                 <Icon name="phone" size="large" />&nbsp; &nbsp;
                                     <span style={{
-                                            fontSize: 15,
+                                            fontSize: 12,
                                             fontFamily: 'Arvo', 
                                             fontWeight: 'normal'
                                         }}
@@ -51,7 +51,7 @@ export const Team = () => {
                             <p>
                                 <Icon name="mail" size="large" /> &nbsp;
                                 <span style={{
-                                        fontSize: 15,
+                                        fontSize: 12,
                                         fontFamily: 'Arvo', 
                                         fontWeight: 'normal'
                                     }}
@@ -67,7 +67,7 @@ export const Team = () => {
                                 content="Opeoluwa Williams"
                                 color="green"
                                 style={{
-                                    fontSize: 20, 
+                                    fontSize: 16, 
                                     fontFamily: 'Bebas Neue',
                                     fontWeight: 'bold',
                                     margin: 10,
@@ -75,9 +75,9 @@ export const Team = () => {
                                 }}
                             />
                             <p>
-                                <Icon name="text telephone" size="large" />&nbsp; &nbsp;
+                                <Icon name="phone" size="large" />&nbsp; &nbsp;
                                     <span style={{
-                                            fontSize: 15,
+                                            fontSize: 12,
                                             fontFamily: 'Arvo', 
                                             fontWeight: 'normal'
                                         }}
@@ -88,7 +88,7 @@ export const Team = () => {
                             <p>
                                 <Icon name="mail" size="large" /> &nbsp;
                                 <span style={{
-                                        fontSize: 15,
+                                        fontSize: 12,
                                         fontFamily: 'Arvo', 
                                         fontWeight: 'normal'
                                     }}
@@ -104,7 +104,7 @@ export const Team = () => {
                                 content="Engr. Awonuga Oluwadamilare"
                                 color="green"
                                 style={{
-                                    fontSize: 20, 
+                                    fontSize: 16, 
                                     fontFamily: 'Bebas Neue',
                                     fontWeight: 'bold',
                                     margin: 10,
@@ -112,9 +112,9 @@ export const Team = () => {
                                 }}
                             />
                             <p>
-                                <Icon name="text telephone" size="large" />&nbsp; &nbsp;
+                                <Icon name="phone" size="large" />&nbsp; &nbsp;
                                     <span style={{
-                                            fontSize: 15,
+                                            fontSize: 12,
                                             fontFamily: 'Arvo', 
                                             fontWeight: 'normal'
                                         }}
@@ -125,7 +125,7 @@ export const Team = () => {
                             <p>
                                 <Icon name="mail" size="large" /> &nbsp;
                                 <span style={{
-                                        fontSize: 15,
+                                        fontSize: 12,
                                         fontFamily: 'Arvo', 
                                         fontWeight: 'normal'
                                     }}
@@ -141,7 +141,7 @@ export const Team = () => {
                                 content="Olalekan Adeleke Ogunlade"
                                 color="green"
                                 style={{
-                                    fontSize: 20, 
+                                    fontSize: 16, 
                                     fontFamily: 'Bebas Neue',
                                     fontWeight: 'bold',
                                     margin: 10,
@@ -149,9 +149,9 @@ export const Team = () => {
                                 }}
                             />
                             <p>
-                                <Icon name="text telephone" size="large" />&nbsp; &nbsp;
+                                <Icon name="phone" size="large" />&nbsp; &nbsp;
                                     <span style={{
-                                            fontSize: 15,
+                                            fontSize: 12,
                                             fontFamily: 'Arvo', 
                                             fontWeight: 'normal'
                                         }}
@@ -162,7 +162,7 @@ export const Team = () => {
                             <p>
                                 <Icon name="mail" size="large" /> &nbsp;
                                 <span style={{
-                                        fontSize: 15,
+                                        fontSize: 12,
                                         fontFamily: 'Arvo', 
                                         fontWeight: 'normal'
                                     }}
