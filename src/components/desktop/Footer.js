@@ -4,7 +4,7 @@ import '../../fonts/Arvo-Regular.ttf'
 const Footer = () => {
     return(
        
-        <Segment vertical style={{backgroundColor: '#000', paddingTop: 60, paddingBottom: 60}}>
+        <Segment vertical style={{backgroundColor: '#000', margin: 0, paddingTop: 50}}>
             <Container>
             <Grid>
                 <Grid.Row>
@@ -32,7 +32,7 @@ const Footer = () => {
                                         inverted circular 
                                         color="white" 
                                         name="facebook f" 
-                                        size="small"
+                                        size="large"
                                         co 
                                     />
                                 </Grid.Column>
@@ -41,7 +41,7 @@ const Footer = () => {
                                         inverted circular 
                                         color="white" 
                                         name="twitter" 
-                                        size="small" 
+                                        size="large" 
                                     />
 
                                 </Grid.Column>
@@ -50,7 +50,7 @@ const Footer = () => {
                                         inverted circular 
                                         color="white" 
                                         name="google plus g" 
-                                        size="small" 
+                                        size="large" 
                                     />
 
                                 </Grid.Column>
@@ -59,7 +59,7 @@ const Footer = () => {
                                         inverted circular 
                                         color="white" 
                                         name="instagram" 
-                                        size="small" 
+                                        size="large" 
                                     />
 
                                 </Grid.Column>
@@ -97,8 +97,15 @@ const Footer = () => {
                             </Grid.Row>
                             <Grid.Row>
                                 <Grid.Column>     
-                                <Input placeholder='Search...' />
-                                <Button color="green" content='SUBSCRIBE' />
+                                    <Input placeholder='Search...' action >
+                                        <Input />
+                                        <Button 
+                                            color="green"
+                                            size="small"
+                                        >
+                                            SUBSCRIBE
+                                        </Button>
+                                    </Input>
                                 </Grid.Column>
                             </Grid.Row>
                         </Grid>
@@ -129,19 +136,19 @@ const Footer = () => {
                                         color: '#fff'
                                     }}>
                                         <List.Item>
-                                            <Icon name="angle right" />
+                                            <Icon color="green" name="angle right" />
                                             About
                                         </List.Item>
                                         <List.Item>
-                                            <Icon name="angle right" />
+                                            <Icon color="green" name="angle right" />
                                             Services
                                         </List.Item>
                                         <List.Item>
-                                            <Icon name="angle right" />
+                                            <Icon color="green" name="angle right" />
                                             Real Estate
                                         </List.Item>
                                         <List.Item>
-                                            <Icon name="angle right" />
+                                            <Icon color="green" name="angle right" />
                                             Contact
                                         </List.Item>
                                     </List>
@@ -150,6 +157,22 @@ const Footer = () => {
                         </Grid>
                     </Grid.Column>
 
+                </Grid.Row>
+                <Grid.Row style={{paddingTop: 60}}>
+                    <Grid.Column>
+                        <Header 
+                            as="h6"
+                            content="Sycomore &copy; 2024 . All Right Reserved" 
+                            inverted
+                            textAlign="center"
+                            link
+                            style={{
+                                fontFamily: 'Arvo',
+                                fontSize: 10,
+                                fontWeight: 'normal'
+                            }}
+                        />
+                    </Grid.Column>
                 </Grid.Row>
             </Grid>
             </Container>
