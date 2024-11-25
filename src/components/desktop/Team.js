@@ -30,9 +30,9 @@ export const Team = () => {
                                 content="Engr. Solarin Babajide Feyisola"
                                 color="green"
                                 style={{
-                                    fontSize: 20, 
-                                    fontFamily: 'Bebas Neue',
-                                    fontWeight: 'normal',
+                                    fontSize: 12, 
+                                    fontFamily: 'Arvo',
+                                    fontWeight: 'bold',
                                     margin: 10,
                                     marginLeft: 0
                                 }}
@@ -67,9 +67,9 @@ export const Team = () => {
                                 content="Opeoluwa Williams"
                                 color="green"
                                 style={{
-                                    fontSize: 20, 
-                                    fontFamily: 'Bebas Neue',
-                                    fontWeight: 'normal',
+                                    fontSize: 12, 
+                                    fontFamily: 'Arvo',
+                                    fontWeight: 'bold',
                                     margin: 10,
                                     marginLeft: 0
                                 }}
@@ -104,9 +104,9 @@ export const Team = () => {
                                 content="Engr. Awonuga Oluwadamilare"
                                 color="green"
                                 style={{
-                                    fontSize: 20, 
-                                    fontFamily: 'Bebas Neue',
-                                    fontWeight: 'normal',
+                                    fontSize: 12, 
+                                    fontFamily: 'Arvo',
+                                    fontWeight: 'bold',
                                     margin: 10,
                                     marginLeft: 0
                                 }}
@@ -141,9 +141,9 @@ export const Team = () => {
                                 content="Olalekan Adeleke Ogunlade"
                                 color="green"
                                 style={{
-                                    fontSize: 20, 
-                                    fontFamily: 'Bebas Neue',
-                                    fontWeight: 'normal',
+                                    fontSize: 12, 
+                                    fontFamily: 'Arvo',
+                                    fontWeight: 'bold',
                                     margin: 10,
                                     marginLeft: 0
                                 }}
