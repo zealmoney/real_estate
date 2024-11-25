@@ -1,24 +1,46 @@
-import logo from './logo.svg';
 import './App.css';
+import { createMedia } from '@artsy/fresnel'
+import { Routes, Route, BrowserRouter } from 'react-router-dom'
+import 'semantic-ui-css/semantic.min.css'
+import Home from './components/desktop/Home';
+import { About } from './components/desktop/About';
+import { Services } from './components/desktop/Services';
+import { Contact } from './components/desktop/Contact';
+
+const {MediaContextProvider, Media} = createMedia({
+  breakpoints: {
+    mobile: 0,
+    tablet: 768,
+    computer: 1024,
+  }
+})
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    <MediaContextProvider>
+      <Media at='monbile'>
+        <BrowserRouter>
+          <Routes>
+            <Route index element={<Home mobile />} />
+          </Routes>
+        </BrowserRouter>
+        
+      </Media>
+
+      <Media greaterThan="mobile">
+        <BrowserRouter>
+          <Routes>
+            <Route index element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </BrowserRouter>
+      </Media>
+    </MediaContextProvider>
+   
   );
 }
 
