@@ -8,12 +8,12 @@ import { Team } from "./Team"
 export const About = () => {
 
     return(
-        <>
+        <Segment vertical style={{margin: 0, padding: 0}}>
             <NavBar />
             <AboutHeading />
             <Overview />
             <Team />
             <Footer />
-        </>
+        </Segment>
     )
 }

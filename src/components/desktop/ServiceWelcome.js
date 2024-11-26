@@ -1,6 +1,6 @@
 import { Container, Grid, Header, Image, Segment } from "semantic-ui-react"
 
-export const Overview = () => {
+export const ServiceWelcome = () => {
 
     return(
         <>
@@ -11,7 +11,7 @@ export const Overview = () => {
                             <Grid.Column>
                                 <Header 
                                     as="h4"
-                                    content="OVERVIEW"
+                                    content="WELCOME"
                                     attached='bottom'
                                     textAlign="center"
                                     style={{
