@@ -99,7 +99,7 @@ export const Team = () => {
                             <Image src='/images/jide.jpg' rounded/>
                             <Header
                                 as='h4'
-                                content="Engr. Awonuga Oluwadamilare"
+                                content="Awonuga Oluwadamilare"
                                 color="green"
                                 style={{ 
                                     fontFamily: 'Arvo',
@@ -135,7 +135,7 @@ export const Team = () => {
                             <Image src='/images/jide.jpg' rounded/>
                             <Header
                                 as='h4'
-                                content="Olalekan Adeleke Ogunlade"
+                                content="Olalekan Ogunlade"
                                 color="green"
                                 style={{
                                     fontFamily: 'Arvo',
