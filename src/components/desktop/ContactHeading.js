@@ -4,7 +4,7 @@ import '../../style.css'
 export const ContactHeading = () => {
 
     return(
-        <>
+
             <Segment vertical id='contact_template'>
                 <Grid verticalAlign="middle">
                     <Grid.Row>
@@ -19,16 +19,6 @@ export const ContactHeading = () => {
                                     fontSize: '30px'
                                 }}
                             />
-                            {/*<Header 
-                                as='h4' 
-                                textAlign="center"
-                                inverted
-                                content='Our Services'
-                                style={{fontFamily: 'Roboto',
-                                    fontWeight: 'bold',
-                                    fontSize: '20px'
-                                }}
-                            />*/}
                         </Grid.Column>
                     </Grid.Row>
                     <Grid.Row textAlign="center">
@@ -46,20 +36,5 @@ export const ContactHeading = () => {
                     </Grid.Row>
                 </Grid>
             </Segment>
-            <Segment vertical>
-                <Grid textAlign="center">
-                    <Grid.Row>
-                        <Grid.Column>
-                            <Icon name="phone" color="green" />
-                            Phones
-                            1-800-1234-567
-                        </Grid.Column>
-                        <Grid.Column>2</Grid.Column>
-                        <Grid.Column>3</Grid.Column>
-                        <Grid.Column>4</Grid.Column>
-                    </Grid.Row>
-                </Grid>
-            </Segment>
-        </>
     )
 }

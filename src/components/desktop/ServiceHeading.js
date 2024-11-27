@@ -4,7 +4,6 @@ import '../../style.css'
 export const ServiceHeading = () => {
 
     return(
-        <>
             <Segment vertical id='service_template'>
                 <Grid verticalAlign="middle">
                     <Grid.Row>
@@ -46,6 +45,5 @@ export const ServiceHeading = () => {
                     </Grid.Row>
                 </Grid>
             </Segment>
-        </>
     )
 }
