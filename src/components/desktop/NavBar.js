@@ -59,7 +59,12 @@ const NavBar = () => {
                     Services
                 </Menu.Item>
                 <Menu.Item as="a">Real estate</Menu.Item>
-                <Menu.Item as="a">Contact</Menu.Item>
+                <Menu.Item 
+                    as="a"
+                    onClick={() => navigate("/contact")}    
+                >
+                    Contact
+                </Menu.Item>
             </Container>
 
         </Menu>

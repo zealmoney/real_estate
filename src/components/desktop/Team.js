@@ -24,13 +24,12 @@ export const Team = () => {
                     </Grid.Row>
                     <Grid.Row>
                         <Grid.Column width={4}>
-                            <Image size="large" src='/images/10.jpg' rounded/>
+                            <Image size="large" src='/images/jide.jpg' rounded/>
                             <Header
                                 as='h4'
-                                content="Engr. Solarin Babajide Feyisola"
+                                content="Engr. Babajide Solarin"
                                 color="green"
-                                style={{
-                                    fontSize: 12, 
+                                style={{ 
                                     fontFamily: 'Arvo',
                                     fontWeight: 'bold',
                                     margin: 10,
@@ -38,7 +37,7 @@ export const Team = () => {
                                 }}
                             />
                             <p>
-                                <Icon name="phone" size="large" />&nbsp; &nbsp;
+                                <Icon name="mobile alternate" size="large" />
                                     <span style={{
                                             fontSize: 12,
                                             fontFamily: 'Arvo', 
@@ -49,7 +48,7 @@ export const Team = () => {
                                     </span>
                             </p>
                             <p>
-                                <Icon name="mail" size="large" /> &nbsp;
+                                <Icon name="mail outline" size="large" />
                                 <span style={{
                                         fontSize: 12,
                                         fontFamily: 'Arvo', 
@@ -61,13 +60,12 @@ export const Team = () => {
                             </p>
                         </Grid.Column>
                         <Grid.Column width={4}>
-                            <Image src='/images/3.jpg' rounded/>
+                            <Image src='/images/jide.jpg' rounded/>
                             <Header
                                 as='h4'
                                 content="Opeoluwa Williams"
                                 color="green"
-                                style={{
-                                    fontSize: 12, 
+                                style={{ 
                                     fontFamily: 'Arvo',
                                     fontWeight: 'bold',
                                     margin: 10,
@@ -75,7 +73,7 @@ export const Team = () => {
                                 }}
                             />
                             <p>
-                                <Icon name="phone" size="large" />&nbsp; &nbsp;
+                                <Icon name="mobile alternate" size="large" />
                                     <span style={{
                                             fontSize: 12,
                                             fontFamily: 'Arvo', 
@@ -86,7 +84,7 @@ export const Team = () => {
                                     </span>
                             </p>
                             <p>
-                                <Icon name="mail" size="large" /> &nbsp;
+                                <Icon name="mail outline" size="large" />
                                 <span style={{
                                         fontSize: 12,
                                         fontFamily: 'Arvo', 
@@ -98,13 +96,12 @@ export const Team = () => {
                             </p>
                         </Grid.Column>
                         <Grid.Column width={4}>
-                            <Image src='/images/4.jpg' rounded/>
+                            <Image src='/images/jide.jpg' rounded/>
                             <Header
                                 as='h4'
                                 content="Engr. Awonuga Oluwadamilare"
                                 color="green"
-                                style={{
-                                    fontSize: 12, 
+                                style={{ 
                                     fontFamily: 'Arvo',
                                     fontWeight: 'bold',
                                     margin: 10,
@@ -112,7 +109,7 @@ export const Team = () => {
                                 }}
                             />
                             <p>
-                                <Icon name="phone" size="large" />&nbsp; &nbsp;
+                                <Icon name="mobile alternate" size="large" />
                                     <span style={{
                                             fontSize: 12,
                                             fontFamily: 'Arvo', 
@@ -123,7 +120,7 @@ export const Team = () => {
                                     </span>
                             </p>
                             <p>
-                                <Icon name="mail" size="large" /> &nbsp;
+                                <Icon name="mail outline" size="large" />
                                 <span style={{
                                         fontSize: 12,
                                         fontFamily: 'Arvo', 
@@ -135,13 +132,12 @@ export const Team = () => {
                             </p>
                         </Grid.Column>
                         <Grid.Column width={4}>
-                            <Image src='/images/10.jpg' rounded/>
+                            <Image src='/images/jide.jpg' rounded/>
                             <Header
                                 as='h4'
                                 content="Olalekan Adeleke Ogunlade"
                                 color="green"
                                 style={{
-                                    fontSize: 12, 
                                     fontFamily: 'Arvo',
                                     fontWeight: 'bold',
                                     margin: 10,
@@ -149,7 +145,7 @@ export const Team = () => {
                                 }}
                             />
                             <p>
-                                <Icon name="phone" size="large" />&nbsp; &nbsp;
+                                <Icon name="mobile alternate" size="large" />
                                     <span style={{
                                             fontSize: 12,
                                             fontFamily: 'Arvo', 
@@ -160,7 +156,7 @@ export const Team = () => {
                                     </span>
                             </p>
                             <p>
-                                <Icon name="mail" size="large" /> &nbsp;
+                                <Icon name="mail outline" size="large" />
                                 <span style={{
                                         fontSize: 12,
                                         fontFamily: 'Arvo', 
