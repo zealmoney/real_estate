@@ -6,8 +6,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    padding-top: 15em;
-    padding-bottom: 15em;
+    padding-top: 10em;
+    padding-bottom: 10em;
 }
 
 #about_template{
@@ -16,8 +16,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    padding-top: 10em;
-    padding-bottom: 10em;
+    padding-top: 5em;
+    padding-bottom: 5em;
 }
 
 #service_template{
@@ -26,8 +26,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    padding-top: 10em;
-    padding-bottom: 10em;
+    padding-top: 5em;
+    padding-bottom: 5em;
 }
 
 #service_template2{
@@ -36,8 +36,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    padding-top: 10em;
-    padding-bottom: 10em;
+    padding-top: 5em;
+    padding-bottom: 5em;
 }
 
 #contact_template{
@@ -46,6 +46,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    padding-top: 10em;
-    padding-bottom: 10em;
+    padding-top: 5em;
+    padding-bottom: 5em;
 }
