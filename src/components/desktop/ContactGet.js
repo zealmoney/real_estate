@@ -1,0 +1,56 @@
+import { Button, Container, Form, Grid, Header, Segment } from "semantic-ui-react"
+
+export const ContactGet = () => {
+
+    return(
+        <Segment vertical style={{padding: 50}}>
+            <Container>
+                <Grid>
+                    <Grid.Row style={{padding: 50}}>
+                        <Grid.Column>
+                            <Header 
+                                as="h4"
+                                content="Get In Touch"
+                                textAlign="center"
+                                attached="bottom"
+                                style={{
+                                    fontFamily: 'AGRESSIVE',
+                                    fontSize: 24,
+                                    fontWeight: 'bold'        
+                                }}
+                            />
+                        </Grid.Column>
+                    </Grid.Row>
+                    <Grid.Row>
+                        <Grid.Column width={2}></Grid.Column>
+                        <Grid.Column textAlign="center" width={12}>                        
+                            <Form size="huge">
+                                <Form.Group widths='equal'>
+                                    <Form.Input placeholder="First Name" />
+                                    <Form.Input placeholder="Last Name" />
+                                </Form.Group>
+                                <Form.Group widths='equal'>
+                                    <Form.Input placeholder="Phone No" />
+                                    <Form.Input placeholder="Email" />
+                                </Form.Group>
+                                <Form.Field>
+                                    <Form.TextArea placeholder="Message" />
+                                </Form.Field>
+                                <Form.Field>
+                                    <Button
+                                        color="green"
+                                        size="huge"                                       
+                                    >
+
+                                        Send Message
+                                    </Button>
+                                </Form.Field>
+                            </Form>
+                        </Grid.Column>
+                        <Grid.Column width={2}></Grid.Column>
+                    </Grid.Row>
+                </Grid>    
+            </Container>
+        </Segment>
+    )
+}

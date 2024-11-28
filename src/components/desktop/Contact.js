@@ -3,6 +3,8 @@ import NavBar from "./NavBar"
 import { ContactHeading } from "./ContactHeading"
 import Footer from "./Footer"
 import { ContactSubHeading } from "./ContactSubHeading"
+import { ContactGet } from "./ContactGet"
+import { ContactMap } from "./ContactMap"
 
 export const Contact = () => {
 
@@ -11,6 +13,8 @@ export const Contact = () => {
             <NavBar />
             <ContactHeading />
             <ContactSubHeading />
+            <ContactGet />
+            <ContactMap />
             <Footer />
         </Segment>
     )

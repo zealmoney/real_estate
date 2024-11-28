@@ -34,6 +34,9 @@ export const ContactSubHeading = () => {
                                     fontWeight: 'bold'
                                 }}
                             />
+                            <p style={{paddingLeft: 40}}>
+                                example@yourname.com
+                            </p>
                         </Grid.Column>
                         <Grid.Column width={4}>
                             <Header 
@@ -45,6 +48,10 @@ export const ContactSubHeading = () => {
                                     fontWeight: 'bold'
                                 }}
                             />
+                            <p style={{paddingLeft: 40}}>
+                                316 W 34th Street, Chicago Heights,
+                                IL 60411
+                            </p>
                         </Grid.Column>
                         <Grid.Column width={4}>
                             <Header 
@@ -56,6 +63,12 @@ export const ContactSubHeading = () => {
                                     fontWeight: 'bold'
                                 }}
                             />
+                            <p style={{paddingLeft: 40}}>
+                                8:00 - 19:00 Mon - Fri
+                            </p>
+                            <p style={{paddingLeft: 40}}>
+                                9:00 - 17:00 Sat
+                            </p>
                         </Grid.Column>
                     </Grid.Row>
                 </Grid>
