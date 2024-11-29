@@ -1,17 +1,25 @@
-import { Container, Grid, Segment } from "semantic-ui-react"
+import { Grid, Segment } from "semantic-ui-react"
 
 export const ContactMap = () => {
 
     return(
-        <Segment vertical style={{padding: 0}}>
+        <Segment vertical style={{
+            padding: 0, 
+            margin: 0
+            }}
+        >
                 <Grid>
-                    <Grid.Row>
-                        <Grid.Column>
-                            <iframe 
-                                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5931.801807948517!2d-87.6297634!3d41.47708289999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sus!4v1732836311946!5m2!1sen!2sus"
+                    <Grid.Row style={{paddingTop: 0}}>
+                        <Grid.Column style={{minHeight: 400}}>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3932.3348491082993!2d3.2981939749936884!3d6.609831093384173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s4%20unity%20close%20iyana%20ipaja%20lagos%20nigeria!5e1!3m2!1sen!2sus!4v1732906148980!5m2!1sen!2sus"
+                                allowFullScreen=""
+                                loading="lazy"
+                                referrerPolicy="no-referrer-when-downgrade"
                                 style={{
-                                    width:"100%", height:350, allowfullscreen:"", 
-                                    loading:"lazy", referrerpolicy:"no-referrer-when-downgrade"
+                                    width:"100%", 
+                                    height: '100%', 
+                                    border: 0,
                                 }} 
                                 >
                             </iframe>
