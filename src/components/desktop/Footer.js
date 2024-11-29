@@ -1,9 +1,12 @@
 import { Container, Grid, Header, Segment, Form, Input, Icon, Button, List } from "semantic-ui-react"
 import '../../fonts/Arvo-Regular.ttf'
+import { useNavigate } from "react-router-dom"
 
 const Footer = () => {
+
+    const navigate = useNavigate()
+
     return(
-       
         <Segment vertical style={{backgroundColor: '#000', margin: 0, paddingTop: 50}}>
             <Container>
             <Grid>
@@ -135,11 +138,17 @@ const Footer = () => {
                                     <List link inverted relaxed style={{
                                         color: '#fff'
                                     }}>
-                                        <List.Item>
+                                        <List.Item
+                                            as="a"
+                                            onClick={() => navigate("/about")}
+                                        >
                                             <Icon color="green" name="angle right" />
                                             About
                                         </List.Item>
-                                        <List.Item>
+                                        <List.Item
+                                            as="a"
+                                            onClick={() => navigate("/services")}
+                                        >
                                             <Icon color="green" name="angle right" />
                                             Services
                                         </List.Item>
@@ -147,7 +156,10 @@ const Footer = () => {
                                             <Icon color="green" name="angle right" />
                                             Real Estate
                                         </List.Item>
-                                        <List.Item>
+                                        <List.Item
+                                            as="a"
+                                            onClick={() => navigate("/contact")}
+                                        >
                                             <Icon color="green" name="angle right" />
                                             Contact
                                         </List.Item>

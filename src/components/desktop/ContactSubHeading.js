@@ -9,7 +9,7 @@ export const ContactSubHeading = () => {
                     <Grid.Row style={{padding: 50}}>
                         <Grid.Column width={4}>
                             <Header 
-                                as='h2'
+                                as='h3'
                                 icon='mobile alternate'
                                 content="Phones"
                                 style={{
@@ -26,7 +26,7 @@ export const ContactSubHeading = () => {
                         </Grid.Column>
                         <Grid.Column width={4}>
                             <Header 
-                                as='h2'
+                                as='h3'
                                 icon='mail outline'
                                 content="Email"
                                 style={{
@@ -40,7 +40,7 @@ export const ContactSubHeading = () => {
                         </Grid.Column>
                         <Grid.Column width={4}>
                             <Header 
-                                as='h2'
+                                as='h3'
                                 icon='map outline'
                                 content="Address"
                                 style={{
@@ -55,7 +55,7 @@ export const ContactSubHeading = () => {
                         </Grid.Column>
                         <Grid.Column width={4}>
                             <Header 
-                                as='h2'
+                                as='h3'
                                 icon='clock outline'
                                 content="Open Hours"
                                 style={{
