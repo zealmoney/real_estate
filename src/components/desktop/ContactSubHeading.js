@@ -3,10 +3,10 @@ import { Container, Grid, Header, Icon, Segment } from "semantic-ui-react"
 export const ContactSubHeading = () => {
 
     return(
-        <Segment vertical style={{backgroundColor: '#f6f6f6', padding: 50}}>
+        <Segment vertical style={{backgroundColor: '#f6f6f6', paddingTop: 50}}>
             <Container>
                 <Grid stackable>
-                    <Grid.Row style={{padding: 50}}>
+                    <Grid.Row style={{paddingTop: 50}}>
                         <Grid.Column width={4}>
                             <Header 
                                 as='h3'

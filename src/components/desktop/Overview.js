@@ -3,10 +3,10 @@ import { Container, Grid, Header, Image, Segment } from "semantic-ui-react"
 export const Overview = () => {
 
     return(
-            <Segment vertical style={{padding: 50}}>
+            <Segment vertical style={{paddingTop: 50}}>
                 <Container>
                     <Grid stackable>
-                        <Grid.Row style={{padding: 50}}> 
+                        <Grid.Row style={{paddingTop: 50}}> 
                             <Grid.Column>
                                 <Header 
                                     as="h4"

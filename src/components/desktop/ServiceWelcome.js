@@ -4,10 +4,10 @@ export const ServiceWelcome = () => {
 
     return(
         <>
-            <Segment vertical style={{padding: 50}}>
+            <Segment vertical style={{paddingTop: 50}}>
                 <Container>
                     <Grid stackable>
-                        <Grid.Row style={{padding: 50}}> 
+                        <Grid.Row style={{paddingTop: 50}}> 
                             <Grid.Column>
                                 <Header 
                                     as="h4"
