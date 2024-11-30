@@ -13,7 +13,7 @@ export const AboutHeading = () => {
                                 as='h1'
                                 textAlign="center"
                                 inverted
-                                content='ABOUT SYCAMORE CONSTRUCT'
+                                content='ABOUT'
                                 style={{fontFamily: 'AGRESSIVE',
                                     fontWeight: 'bold',
                                     fontSize: '30px'

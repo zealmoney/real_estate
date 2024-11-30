@@ -8,6 +8,7 @@ import RecentProjects from "./RecentProjects"
 import TeamMembers from "./TeamManagers"
 import GetInTouch from "./GetInTouch"
 import NavbarHomeMobile from "../mobile/NavbarHomeMobile"
+import { useNavigate } from "react-router-dom"
 
 const Home = ({mobile}) => {
 

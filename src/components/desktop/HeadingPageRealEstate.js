@@ -17,7 +17,7 @@ const HeadingPageRealEstate = () => {
                             fontSize: '30px'
                         }}
                     >
-                        SYCOMORE CONSTRUCT REAL ESTATE
+                        REAL ESTATE
                     </Header>
                     <Header 
                         as="h4"
@@ -30,7 +30,7 @@ const HeadingPageRealEstate = () => {
                         }}
                     
                     >
-                        See Our Recently Built Houses For Sale
+                        Recently Built Houses For Sale
                     </Header>
 
                     </Grid.Column>

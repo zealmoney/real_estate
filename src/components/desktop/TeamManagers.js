@@ -1,6 +1,9 @@
+import { useNavigate } from "react-router-dom"
 import { Container, Grid, Header, Segment,Image, Icon, Button } from "semantic-ui-react"
 
 const TeamMembers = () => {
+
+    const navigate = useNavigate()
 
     return(
         <Segment vertical style={{ paddingTop: 50, backgroundColor: '#f6f6f6' }}>
@@ -287,6 +290,7 @@ const TeamMembers = () => {
                                     fontSize: 16,
                                     fontWeight: 'bold'
                                 }}
+                                onClick={() => navigate("/about")}
                             >
                                 VIEW ALL MEMBERS
                             </Button>

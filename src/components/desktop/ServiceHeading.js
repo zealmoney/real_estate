@@ -12,7 +12,7 @@ export const ServiceHeading = () => {
                                 as='h1' 
                                 textAlign="center"
                                 inverted
-                                content='SYCAMORE CONSTRUCT SERVICES'
+                                content='SERVICES'
                                 style={{fontFamily: 'AGRESSIVE',
                                     fontWeight: 'bold',
                                     fontSize: '30px'

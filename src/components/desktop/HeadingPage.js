@@ -3,8 +3,12 @@ import '../../fonts/AGRESSIVE.otf'
 import '../../style.css'
 import '../../fonts/BebasNeue-Regular.ttf'
 import '../../fonts/Roboto-Regular.ttf'
+import { useNavigate } from "react-router-dom"
 
 const HeadingPage = () => {
+
+    const navigate = useNavigate()
+
     return(
         <Segment id="home_template" vertical style={{margin: 0}}>
             <Grid stackable verticalAlign="middle">
@@ -48,6 +52,7 @@ const HeadingPage = () => {
                                 fontSize: 20,
                                 fontWeight: 'normal',
                             }}
+                            onClick={() => navigate("/projects")}
                         >
                             VIEW PROJECTS
                         </Button>
@@ -59,6 +64,7 @@ const HeadingPage = () => {
                                 fontSize: 20,
                                 fontWeight: 'normal',
                             }}
+                            onClick={() => navigate("/contact")}
                         >
                             CONTACT US
                         </Button>

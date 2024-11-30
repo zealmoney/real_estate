@@ -20,7 +20,7 @@ const HeadingPageProjects = () => {
                             fontSize: '30px'
                         }}
                     >
-                        SYCOMORE CONSTRUCT PROJECTS
+                        PROJECTS
                     </Header>
                     <Header 
                         as="h4"
@@ -33,7 +33,7 @@ const HeadingPageProjects = () => {
                         }}
                     
                     >
-                        See Our Recently Completed Projects
+                        Recently Completed Projects
                     </Header>
 
                     </Grid.Column>

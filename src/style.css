@@ -21,7 +21,7 @@
 }
 
 #realestate_template{
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../public/images/carousel/carousel1.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../public/images/carousel/carousel1.jpg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,7 +31,7 @@
 }
 
 #form_template{
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(../public/images/carousel/carousel3.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../public/images/carousel/carousel3.jpg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
