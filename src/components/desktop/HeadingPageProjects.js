@@ -3,8 +3,12 @@ import '../../fonts/AGRESSIVE.otf'
 import '../../style.css'
 import '../../fonts/BebasNeue-Regular.ttf'
 import '../../fonts/Roboto-Regular.ttf'
+import { useNavigate } from "react-router-dom"
 
 const HeadingPageProjects = () => {
+
+    const navigate = useNavigate()
+
     return(
         <Segment id="project_template" vertical>
             <Grid verticalAlign="middle">
@@ -41,7 +45,11 @@ const HeadingPageProjects = () => {
                 <Grid.Row textAlign="center">
                     <Grid.Column>
                         <Breadcrumb>
-                            <Breadcrumb.Section link style={{fontSize: 18, color: 'green'}}>
+                            <Breadcrumb.Section 
+                                link 
+                                style={{fontSize: 18, color: 'green'}}
+                                onClick={() => navigate("/")}
+                            >
                                 Home
                             </Breadcrumb.Section>
                              <Icon name='right chevron' inverted size="small" />

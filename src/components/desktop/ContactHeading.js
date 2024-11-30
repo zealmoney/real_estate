@@ -1,7 +1,10 @@
 import { Breadcrumb, Grid, Header, Icon, Segment } from "semantic-ui-react"
 import '../../style.css'
+import { useNavigate } from "react-router-dom"
 
 export const ContactHeading = () => {
+
+    const navigate = useNavigate()
 
     return(
 
@@ -24,7 +27,11 @@ export const ContactHeading = () => {
                     <Grid.Row textAlign="center">
                         <Grid.Column>
                             <Breadcrumb>
-                             <Breadcrumb.Section link style={{fontSize: 18, color: 'green'}}>
+                             <Breadcrumb.Section 
+                                link 
+                                style={{fontSize: 18, color: 'green'}}
+                                onClick={() => navigate("/")}
+                            >
                                 Home
                              </Breadcrumb.Section>
                              <Icon name="right chevron" inverted size="small" />

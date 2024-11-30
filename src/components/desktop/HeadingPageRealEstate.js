@@ -1,6 +1,9 @@
+import { useNavigate } from "react-router-dom"
 import { Segment, Grid, Breadcrumb, Icon, Header } from "semantic-ui-react"
 
 const HeadingPageRealEstate = () => {
+
+    const navigate = useNavigate()
 
     return(
         <Segment vertical id="realestate_template">
@@ -38,7 +41,11 @@ const HeadingPageRealEstate = () => {
                 <Grid.Row textAlign="center">
                     <Grid.Column>
                         <Breadcrumb>
-                            <Breadcrumb.Section link style={{fontSize: 18, color: 'green'}}>
+                            <Breadcrumb.Section 
+                                link 
+                                style={{fontSize: 18, color: 'green'}}
+                                onClick={() => navigate("/")}
+                            >
                                 Home
                             </Breadcrumb.Section>
                              <Icon name='right chevron' inverted size="small" />
