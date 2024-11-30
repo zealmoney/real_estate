@@ -1,13 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-#b_template{
+#home_template{
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../public/images/carousel/carousel1.jpg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    padding-top: 10em;
-    padding-bottom: 10em;
+    padding-top: 8em;
+    padding-bottom: 8em;
+}
+
+#project_template{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../public/images/carousel/carousel1.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+#realestate_template{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../public/images/carousel/carousel1.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+#form_template{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(../public/images/carousel/carousel3.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding-top: 5em;
+    padding-bottom: 5em;
 }
 
 #about_template{
@@ -49,3 +79,6 @@
     padding-top: 5em;
     padding-bottom: 5em;
 }
+  
+/*user name= E1152913, password = 179784 */
+ 

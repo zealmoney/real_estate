@@ -1,13 +1,13 @@
-import { Button, Grid, Header, Image, Segment } from "semantic-ui-react"
+import { Breadcrumb, Button, Grid, Header, Icon, Image, Segment } from "semantic-ui-react"
 import '../../fonts/AGRESSIVE.otf'
 import '../../style.css'
 import '../../fonts/BebasNeue-Regular.ttf'
 import '../../fonts/Roboto-Regular.ttf'
 
-const HeadingPage = () => {
+const HeadingPageProjects = () => {
     return(
-        <Segment id="home_template" vertical style={{margin: 0}}>
-            <Grid stackable verticalAlign="middle">
+        <Segment id="project_template" vertical>
+            <Grid verticalAlign="middle">
                 <Grid.Row>
                     <Grid.Column>
                     <Header 
@@ -20,7 +20,7 @@ const HeadingPage = () => {
                             fontSize: '30px'
                         }}
                     >
-                        SYCAMORE CONSTRUCT
+                        SYCOMORE CONSTRUCT PROJECTS
                     </Header>
                     <Header 
                         as="h4"
@@ -33,35 +33,22 @@ const HeadingPage = () => {
                         }}
                     
                     >
-                        We Build Your Future Structures Today
+                        See Our Recently Completed Projects
                     </Header>
 
                     </Grid.Column>
                 </Grid.Row>
                 <Grid.Row textAlign="center">
                     <Grid.Column>
-                        <Button 
-                            size="large"
-                            color="green"
-                            style={{
-                                fontFamily: "Bebas Neue",
-                                fontSize: 20,
-                                fontWeight: 'normal',
-                            }}
-                        >
-                            VIEW PROJECTS
-                        </Button>
-                        <Button 
-                            size="large"
-                            color="teal"
-                            style={{
-                                fontFamily: "Bebas Neue",
-                                fontSize: 20,
-                                fontWeight: 'normal',
-                            }}
-                        >
-                            CONTACT US
-                        </Button>
+                        <Breadcrumb>
+                            <Breadcrumb.Section link style={{fontSize: 18, color: 'green'}}>
+                                Home
+                            </Breadcrumb.Section>
+                             <Icon name='right chevron' inverted size="small" />
+                             <Breadcrumb.Section style={{color: '#f6f6f6'}}>
+                                Projects
+                            </Breadcrumb.Section>
+                        </Breadcrumb>
                     </Grid.Column>
                 </Grid.Row>
             </Grid>
@@ -70,4 +57,4 @@ const HeadingPage = () => {
     )
    
 }
-export default HeadingPage
+export default HeadingPageProjects

@@ -51,14 +51,24 @@ const NavBar = () => {
                 >
                     About
                 </Menu.Item>
-                <Menu.Item as="a">Projects</Menu.Item>
+                <Menu.Item 
+                    as="a"
+                    onClick={() => navigate("/projects")}
+                >
+                    Projects
+                </Menu.Item>
                 <Menu.Item 
                     as="a"
                     onClick={() => navigate("/services")}
                 >
                     Services
                 </Menu.Item>
-                <Menu.Item as="a">Real estate</Menu.Item>
+                <Menu.Item 
+                    as="a"
+                    onClick={() => navigate("/realestate")}
+                >
+                    Real estate
+                </Menu.Item>
                 <Menu.Item 
                     as="a"
                     onClick={() => navigate("/contact")}    
