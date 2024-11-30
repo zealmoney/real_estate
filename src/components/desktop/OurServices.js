@@ -6,7 +6,7 @@ export const OurServices = () => {
         <>
             <Segment vertical id="service_template2" style={{padding: 50}}>
                 <Container>
-                    <Grid>
+                    <Grid stackable>
                         <Grid.Row style={{padding: 50}}>
                             <Grid.Column>
                                 <Header 

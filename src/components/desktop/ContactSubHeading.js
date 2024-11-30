@@ -5,7 +5,7 @@ export const ContactSubHeading = () => {
     return(
         <Segment vertical style={{backgroundColor: '#f6f6f6', padding: 50}}>
             <Container>
-                <Grid>
+                <Grid stackable>
                     <Grid.Row style={{padding: 50}}>
                         <Grid.Column width={4}>
                             <Header 
@@ -18,10 +18,10 @@ export const ContactSubHeading = () => {
                                 }}
                             />
                             <p style={{paddingLeft: 40}}>
-                                +2348054723657
+                                +2347037117288
                             </p>
                             <p style={{paddingLeft: 40}}>
-                                +2348054723657
+                                +2347037117288
                             </p>
                         </Grid.Column>
                         <Grid.Column width={4}>
@@ -35,7 +35,7 @@ export const ContactSubHeading = () => {
                                 }}
                             />
                             <p style={{paddingLeft: 40}}>
-                                example@yourname.com
+                                opeolowanhr@gmail.com
                             </p>
                         </Grid.Column>
                         <Grid.Column width={4}>
@@ -49,8 +49,7 @@ export const ContactSubHeading = () => {
                                 }}
                             />
                             <p style={{paddingLeft: 40}}>
-                                316 W 34th Street, Chicago Heights,
-                                IL 60411
+                                4, Unity Close , Iyana ipaja , Lagos, Nigeria.
                             </p>
                         </Grid.Column>
                         <Grid.Column width={4}>
@@ -64,10 +63,10 @@ export const ContactSubHeading = () => {
                                 }}
                             />
                             <p style={{paddingLeft: 40}}>
-                                8:00 - 19:00 Mon - Fri
+                                8:00am - 6:00pm Mon - Fri
                             </p>
                             <p style={{paddingLeft: 40}}>
-                                9:00 - 17:00 Sat
+                                8:00am - 12:00noon Sat
                             </p>
                         </Grid.Column>
                     </Grid.Row>

@@ -5,7 +5,7 @@ export const ServiceHeading = () => {
 
     return(
             <Segment vertical id='service_template'>
-                <Grid verticalAlign="middle">
+                <Grid stackable verticalAlign="middle">
                     <Grid.Row>
                         <Grid.Column>
                             <Header 

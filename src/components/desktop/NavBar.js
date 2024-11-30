@@ -1,4 +1,4 @@
-import { Container, Segment, Menu, Image, Header } from "semantic-ui-react"
+import { Container, Segment, Menu, Image, Header, Sidebar } from "semantic-ui-react"
 import '../../fonts/BebasNeue-Regular.ttf'
 import { useNavigate } from "react-router-dom"
 
@@ -14,7 +14,8 @@ const NavBar = () => {
                 fontFamily: "Bebas Neue",
                 fontSize: 20,
                 fontWeight: 'normal',
-                verticalAlign: 'middle'
+                verticalAlign: 'middle',
+                overflow: 'scroll'
             }}
         >
             <Container>

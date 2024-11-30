@@ -3,10 +3,9 @@ import { Container, Grid, Header, Image, Segment } from "semantic-ui-react"
 export const Overview = () => {
 
     return(
-        <>
             <Segment vertical style={{padding: 50}}>
                 <Container>
-                    <Grid>
+                    <Grid stackable>
                         <Grid.Row style={{padding: 50}}> 
                             <Grid.Column>
                                 <Header 
@@ -23,14 +22,14 @@ export const Overview = () => {
                             </Grid.Column>
                         </Grid.Row>
                         <Grid.Row>
-                            <Grid.Column width={7}>
+                            <Grid.Column mobile={7} width={7}>
                                 <Image 
                                     src='/images/10.jpg'
                                     size="large"
                                     rounded
                                 />
                             </Grid.Column>
-                            <Grid.Column width={9}>
+                            <Grid.Column mobile={9} width={9}>
                                 <p style={{ 
                                         fontSize: 14, 
                                         fontFamily: 'Arvo',
@@ -85,6 +84,5 @@ export const Overview = () => {
                     </Grid>
                 </Container>
             </Segment>
-        </>
     )
 }

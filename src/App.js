@@ -20,10 +20,13 @@ function App() {
   return (
 
     <MediaContextProvider>
-      <Media at='monbile'>
+      <Media at='mobile'>
         <BrowserRouter>
           <Routes>
-            <Route index element={<Home mobile />} />
+            <Route index element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </BrowserRouter>
         

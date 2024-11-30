@@ -6,7 +6,7 @@ export const Team = () => {
         <>
          <Segment vertical style={{padding: 50, backgroundColor: '#f6f6f6'}}>
             <Container>
-                <Grid>
+                <Grid stackable>
                     <Grid.Row style={{padding: 50}}>
                         <Grid.Column>
                             <Header 

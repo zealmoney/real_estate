@@ -5,7 +5,7 @@ export const ContactGet = () => {
     return(
         <Segment vertical style={{padding: 50}}>
             <Container>
-                <Grid>
+                <Grid stackable>
                     <Grid.Row style={{padding: 50}}>
                         <Grid.Column>
                             <Header 
@@ -47,7 +47,7 @@ export const ContactGet = () => {
                                         }}                                       
                                     >
 
-                                        Send Message
+                                        SEND MESSAGE
                                     </Button>
                                 </Form.Field>
                             </Form>

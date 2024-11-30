@@ -4,13 +4,13 @@ import '../../style.css'
 export const AboutHeading = () => {
 
     return(
-        <>
+       
             <Segment vertical id='about_template'>
-                <Grid verticalAlign="middle">
+                <Grid stackable verticalAlign="middle">
                     <Grid.Row>
                         <Grid.Column>
                             <Header 
-                                as='h1' 
+                                as='h1'
                                 textAlign="center"
                                 inverted
                                 content='ABOUT SYCAMORE CONSTRUCT'
@@ -46,6 +46,5 @@ export const AboutHeading = () => {
                     </Grid.Row>
                 </Grid>
             </Segment>
-        </>
     )
 }

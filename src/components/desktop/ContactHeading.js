@@ -6,7 +6,7 @@ export const ContactHeading = () => {
     return(
 
             <Segment vertical id='contact_template'>
-                <Grid verticalAlign="middle">
+                <Grid stackable verticalAlign="middle">
                     <Grid.Row>
                         <Grid.Column>
                             <Header 

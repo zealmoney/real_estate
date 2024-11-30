@@ -6,7 +6,7 @@ export const ServiceWelcome = () => {
         <>
             <Segment vertical style={{padding: 50}}>
                 <Container>
-                    <Grid>
+                    <Grid stackable>
                         <Grid.Row style={{padding: 50}}> 
                             <Grid.Column>
                                 <Header 

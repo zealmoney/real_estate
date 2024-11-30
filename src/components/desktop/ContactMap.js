@@ -8,7 +8,7 @@ export const ContactMap = () => {
             margin: 0
             }}
         >
-                <Grid>
+                <Grid stackable>
                     <Grid.Row style={{paddingTop: 0}}>
                         <Grid.Column style={{minHeight: 400}}>
                             <iframe
