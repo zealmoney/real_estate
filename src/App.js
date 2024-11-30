@@ -23,10 +23,10 @@ function App() {
       <Media at='mobile'>
         <BrowserRouter>
           <Routes>
-            <Route index element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/services" element={<Services />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route index element={<Home mobile />} />
+            <Route path="/about" element={<About mobile />} />
+            <Route path="/services" element={<Services mobile />} />
+            <Route path="/contact" element={<Contact mobile />} />
           </Routes>
         </BrowserRouter>
         

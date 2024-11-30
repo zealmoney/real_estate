@@ -21,7 +21,7 @@ export const ContactGet = () => {
                             />
                         </Grid.Column>
                     </Grid.Row>
-                    <Grid.Row>
+                    <Grid.Row style={{paddingBottom: 50}}>
                         <Grid.Column width={2}></Grid.Column>
                         <Grid.Column textAlign="center" width={12}>                        
                             <Form size="large">

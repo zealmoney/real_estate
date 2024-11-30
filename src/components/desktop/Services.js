@@ -4,16 +4,25 @@ import Footer from "./Footer"
 import { ServiceHeading } from "./ServiceHeading"
 import { ServiceWelcome } from "./ServiceWelcome"
 import { OurServices } from "./OurServices"
+import NavbarServicesMobile from "../mobile/NavBarServicesMobile"
 
-export const Services = () => {
+export const Services = ({mobile}) => {
 
-    return(
-        <Segment vertical style={{margin: 0, padding: 0}}>
-            <NavBar /> 
-            <ServiceHeading />
-            <ServiceWelcome />
-            <OurServices /> 
-            <Footer />
-        </Segment>
-    )
+    if(mobile){
+        return(
+            <Segment vertical style={{margin: 0, padding: 0}}>
+                <NavbarServicesMobile />
+            </Segment>
+        )
+    }else{
+        return(
+            <Segment vertical style={{margin: 0, padding: 0}}>
+                <NavBar /> 
+                <ServiceHeading />
+                <ServiceWelcome />
+                <OurServices /> 
+                <Footer />
+            </Segment>
+        )
+    }
 }

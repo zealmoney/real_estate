@@ -22,7 +22,7 @@ export const Team = () => {
                                 />
                         </Grid.Column>
                     </Grid.Row>
-                    <Grid.Row>
+                    <Grid.Row style={{paddingBottom: 50}}>
                         <Grid.Column width={4}>
                             <Image size="large" src='/images/jide.jpg' rounded/>
                             <Header

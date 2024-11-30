@@ -1,9 +1,8 @@
 import { Container, Grid, Header, Image, Segment } from "semantic-ui-react"
 
-export const ServiceWelcome = () => {
+export const AboutOverview = () => {
 
     return(
-        <>
             <Segment vertical style={{paddingTop: 50}}>
                 <Container>
                     <Grid stackable>
@@ -11,7 +10,7 @@ export const ServiceWelcome = () => {
                             <Grid.Column>
                                 <Header 
                                     as="h4"
-                                    content="WELCOME"
+                                    content="OVERVIEW"
                                     attached='bottom'
                                     textAlign="center"
                                     style={{
@@ -57,12 +56,11 @@ export const ServiceWelcome = () => {
                                         we do it seamlessly without struggle.
                                         Our previous jobs executed speak volumes and our clients are
                                         rest assured with their projects in our care.
-                                </p>     
+                                </p>                               
                             </Grid.Column>
                         </Grid.Row>
                     </Grid>
                 </Container>
             </Segment>
-        </>
     )
 }

@@ -3,7 +3,7 @@ import { Container, Grid, Header, Icon, Segment } from "semantic-ui-react"
 export const OurServices = () => {
 
     return(
-        <>
+        
             <Segment vertical id="service_template2" style={{paddingTop: 50}}>
                 <Container>
                     <Grid stackable>
@@ -24,7 +24,7 @@ export const OurServices = () => {
                         </Grid.Row>
                         <Grid.Row>
                             <Grid.Column>
-                                <Grid columns={3} textAlign="center">
+                                <Grid stackable columns={3} textAlign="center">
                                     <Grid.Row>
                                         <Grid.Column>
                                             <Header 
@@ -128,7 +128,7 @@ export const OurServices = () => {
                         </Grid.Row>
                         <Grid.Row>
                             <Grid.Column>
-                                <Grid columns={3} textAlign="center">
+                                <Grid stackable columns={3} textAlign="center">
                                     <Grid.Row>
                                         <Grid.Column>
                                             <Header 
@@ -233,6 +233,6 @@ export const OurServices = () => {
                     </Grid>
                 </Container>
             </Segment>
-        </>
+        
     )
 }

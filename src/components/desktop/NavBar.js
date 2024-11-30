@@ -14,8 +14,7 @@ const NavBar = () => {
                 fontFamily: "Bebas Neue",
                 fontSize: 20,
                 fontWeight: 'normal',
-                verticalAlign: 'middle',
-                overflow: 'scroll'
+                verticalAlign: 'middle'
             }}
         >
             <Container>
