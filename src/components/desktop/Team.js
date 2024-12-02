@@ -27,7 +27,7 @@ export const Team = () => {
                             <Grid stackable columns={3}>
                                 <Grid.Row>
                                     <Grid.Column>
-                                        <Image size="medium" fluid src='/images/jide.jpg' rounded/>
+                                        <Image fluid src='/images/jide.jpg' rounded/>
                                         <Header
                                             as='h4'
                                             content="Engr. Babajide Solarin"
@@ -63,7 +63,7 @@ export const Team = () => {
                                         </p>
                                     </Grid.Column>
                                     <Grid.Column>
-                                        <Image size="medium" fluid src='/images/ope.jpg' rounded/>
+                                        <Image fluid src='/images/ope.jpg' rounded/>
                                         <Header
                                             as='h4'
                                             content="CEO Blder Opeoluwa Williams"
@@ -99,7 +99,7 @@ export const Team = () => {
                                         </p>
                                     </Grid.Column>
                                     <Grid.Column>
-                                        <Image size="medium" fluid src='/images/ajayi.jpg' rounded/>
+                                        <Image fluid src='/images/ajayi.jpg' rounded/>
                                         <Header
                                             as='h4'
                                             content="Builder Ajayi Emmanuel"
