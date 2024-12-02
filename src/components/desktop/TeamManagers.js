@@ -154,7 +154,7 @@ const TeamMembers = () => {
                                     </Grid.Column>
                                     <Grid.Column>
                                         <Image
-                                            src="../images/team/Ajayi.jpg"
+                                            src="../images/team/ajayi.jpg"
                                             circular
                                             size="small"
                                             centered
