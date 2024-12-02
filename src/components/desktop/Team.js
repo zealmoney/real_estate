@@ -6,7 +6,7 @@ export const Team = () => {
         <>
          <Segment vertical style={{paddingTop: 50, backgroundColor: '#f6f6f6'}}>
             <Container>
-                <Grid stackable>
+                <Grid textAlign="center" columns={3} stackable>
                     <Grid.Row style={{paddingTop: 50}}>
                         <Grid.Column>
                             <Header 
@@ -19,11 +19,11 @@ export const Team = () => {
                                     fontSize: 24,
                                     fontWeight: 'bold'
                                 }}
-                                />
+                            />
                         </Grid.Column>
                     </Grid.Row>
                     <Grid.Row style={{paddingBottom: 50}}>
-                        <Grid.Column width={4}>
+                        <Grid.Column textAlign="left">
                             <Image size="large" src='/images/jide.jpg' rounded/>
                             <Header
                                 as='h4'
@@ -59,11 +59,11 @@ export const Team = () => {
                                 </span>
                             </p>
                         </Grid.Column>
-                        <Grid.Column width={4}>
-                            <Image src='/images/jide.jpg' rounded/>
+                        <Grid.Column textAlign="left">
+                            <Image src='/images/ope.jpg' rounded/>
                             <Header
                                 as='h4'
-                                content="Opeoluwa Williams"
+                                content="CEO Blder Opeoluwa Williams"
                                 color="green"
                                 style={{ 
                                     fontFamily: 'Arvo',
@@ -95,49 +95,13 @@ export const Team = () => {
                                 </span>
                             </p>
                         </Grid.Column>
-                        <Grid.Column width={4}>
-                            <Image src='/images/jide.jpg' rounded/>
+                        <Grid.Column textAlign="left">
+                            <Image src='/images/ajayi.jpg' rounded/>
                             <Header
                                 as='h4'
-                                content="Awonuga Oluwadamilare"
+                                content="Builder Ajayi Emmanuel"
                                 color="green"
                                 style={{ 
-                                    fontFamily: 'Arvo',
-                                    fontWeight: 'bold',
-                                    margin: 10,
-                                    marginLeft: 0
-                                }}
-                            />
-                            <p>
-                                <Icon name="mobile alternate" size="large" />
-                                    <span style={{
-                                            fontSize: 12,
-                                            fontFamily: 'Arvo', 
-                                            fontWeight: 'normal'
-                                        }}
-                                    >
-                                        +23480575245
-                                    </span>
-                            </p>
-                            <p>
-                                <Icon name="mail outline" size="large" />
-                                <span style={{
-                                        fontSize: 12,
-                                        fontFamily: 'Arvo', 
-                                        fontWeight: 'normal'
-                                    }}
-                                >
-                                    @yourname@gmail.com
-                                </span>
-                            </p>
-                        </Grid.Column>
-                        <Grid.Column width={4}>
-                            <Image src='/images/jide.jpg' rounded/>
-                            <Header
-                                as='h4'
-                                content="Olalekan Ogunlade"
-                                color="green"
-                                style={{
                                     fontFamily: 'Arvo',
                                     fontWeight: 'bold',
                                     margin: 10,

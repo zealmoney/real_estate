@@ -108,9 +108,9 @@ export const OurServices = () => {
                                                 <p style={{marginTop: 20}}>Property Management</p>
                                                 <Header 
                                                     as='h3'
-                                                    content='You can insure your property at our company immediately
-                                                             after buying or renting. Take care of the safety of your 
-                                                             home and family.'
+                                                    content="We deal with different kinds of properties. 
+                                                            No matter what you need a house, an apartment or 
+                                                            garage you'll find a good option on our site."
                                                     style={{
                                                         fontSize: 14, 
                                                         fontFamily: 'Arvo',
@@ -212,9 +212,9 @@ export const OurServices = () => {
                                                 <p style={{marginTop: 20}}>Property Management</p>
                                                 <Header 
                                                     as='h3'
-                                                    content='You can insure your property at our company immediately
-                                                             after buying or renting. Take care of the safety of your 
-                                                             home and family.'
+                                                    content="We deal with different kinds of properties. 
+                                                            No matter what you need a house, an apartment or 
+                                                            garage you'll find a good option on our site."
                                                     style={{
                                                         fontSize: 14, 
                                                         fontFamily: 'Arvo',

@@ -27,7 +27,7 @@ const TeamMembers = () => {
                     </Grid.Row>
                     <Grid.Row textAlign="center">
                             <Grid.Column>
-                                <Grid stackable columns={4}>
+                                <Grid stackable columns={3}>
                                     <Grid.Column>
                                         <Image
                                             src="../images/team/person1.jpg"
@@ -37,7 +37,7 @@ const TeamMembers = () => {
                                             
                                         />
                                         <Header
-                                            content="Engr. Awonuga oluwadamilare"
+                                            content="Engr. Babajide Solarin"
                                             as="h4"
                                             style={{
                                                 fontFamily: 'Arvo',
@@ -92,14 +92,14 @@ const TeamMembers = () => {
                                     </Grid.Column>
                                     <Grid.Column>
                                         <Image
-                                            src="../images/team/person1.jpg"
+                                            src="../images/team/ope.jpg"
                                             circular
                                             size="small"
                                             centered
                                             
                                         />
                                                <Header
-                                            content="Engr. Awonuga oluwadamilare"
+                                            content="CEO Blder Opeoluwa Williams"
                                             as="h4"
                                             style={{
                                                 fontFamily: 'Arvo',
@@ -111,7 +111,7 @@ const TeamMembers = () => {
                                             }}
                                         />
                                         <Header
-                                            content="Site Engineer"
+                                            content="Builder"
                                             as="h6"
                                             color="green"
                                             style={{
@@ -154,14 +154,14 @@ const TeamMembers = () => {
                                     </Grid.Column>
                                     <Grid.Column>
                                         <Image
-                                            src="../images/team/person1.jpg"
+                                            src="../images/team/Ajayi.jpg"
                                             circular
                                             size="small"
                                             centered
                                             
                                         />
                                                <Header
-                                            content="Engr. Awonuga oluwadamilare"
+                                            content="Builder Ajayi Emmanuel"
                                             as="h4"
                                             style={{
                                                 fontFamily: 'Arvo',
@@ -173,69 +173,7 @@ const TeamMembers = () => {
                                             }}
                                         />
                                         <Header
-                                            content="Site Engineer"
-                                            as="h6"
-                                            color="green"
-                                            style={{
-                                                fontFamily: 'Roboto',
-                                                fontSize: 18,
-                                                fontWeight: 'bold',
-                                                margin: 10,
-                                                marginLeft: 0
-    
-                                            }}
-                                        />
-                                        <Grid>
-                                            <Grid.Column>
-                                                <Icon 
-                                                    name="facebook f" 
-                                                    circular
-                                                    size="large"
-                                                    color="black"
-                                                    inverted
-                                                    style={{margin: 10}}      
-                                                />
-                                                <Icon 
-                                                    name="twitter" 
-                                                    circular
-                                                    size="large"
-                                                    color="black"
-                                                    inverted
-                                                    style={{margin: 10}} 
-                                                />
-                                                <Icon 
-                                                    name="google plus g" 
-                                                    circular
-                                                    size="large"
-                                                    color="black"
-                                                    inverted
-                                                    style={{margin: 10}}   
-                                                />
-                                            </Grid.Column>
-                                        </Grid>
-                                    </Grid.Column>
-                                    <Grid.Column>
-                                        <Image
-                                            src="../images/team/person1.jpg"
-                                            circular
-                                            size="small"  
-                                            centered                                          
-                                            
-                                        />
-                                               <Header
-                                            content="Engr. Awonuga oluwadamilare"
-                                            as="h4"
-                                            style={{
-                                                fontFamily: 'Arvo',
-                                                fontSize: 18,
-                                                fontWeight: 'bold',
-                                                margin: 10,
-                                                marginLeft: 0
-    
-                                            }}
-                                        />
-                                        <Header
-                                            content="Site Engineer"
+                                            content="Builder"
                                             as="h6"
                                             color="green"
                                             style={{
