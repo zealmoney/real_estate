@@ -24,7 +24,7 @@ export const Team = () => {
                     </Grid.Row>
                     <Grid.Row style={{paddingBottom: 50}}>
                         <Grid.Column>
-                            <Grid columns={3}>
+                            <Grid stackable columns={3}>
                                 <Grid.Row>
                                     <Grid.Column>
                                         <Image size="medium" fluid src='/images/jide.jpg' rounded/>
